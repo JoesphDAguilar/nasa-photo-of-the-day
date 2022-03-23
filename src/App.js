@@ -12,14 +12,14 @@ const [photoData, setPhotoData] = useState([]);
 useEffect(() => {
   axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
     .then(res => {
-      photoData(res.data);
+      setPhotoData(res.data);
     })
     .catch(err => console.error(err))
 }, [])
 
   return (
     <div className="App">
-      {photoData && <Nasa />}
+      {photoData && <Nasa photo={photoData}/>}
     </div>
   );
 }

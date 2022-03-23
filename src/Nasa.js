@@ -3,10 +3,10 @@ import React from "react";
 const NasaPhoto = (props) => {
     return (
         <div>
-            <h1>{props.title}</h1>
-            <p>{props.date}</p>
-            <img alt={props.title}src={props.hdurl} />
-            <p>{props.explanation}</p>
+            <h1>{props.photo.title}</h1>
+            <p>{props.photo.date}</p>
+            <img alt={props.photo.title}src={props.photo.hdurl} />
+            <p>{props.photo.explanation}</p>
         </div>
     )
 }
