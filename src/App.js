@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
+import axios from 'axios'
 
+import Nasa from './Nasa'
+console.log(Nasa)
 function App() {
   return (
     <div className="App">
