@@ -7,6 +7,12 @@ import Nasa from './content/Nasa';
 import Fact from './content/Fact';
 import About from './content/About';
 
+import styled from "styled-components";
+
+const StyledDetail =styled.div`
+background-color: black;
+`
+
 function App() {
   const [photoData, setPhotoData] = useState([]);
 
@@ -20,6 +26,7 @@ function App() {
   }, []);
 
   return (
+    <StyledDetail>
     <div className="App">
       <div>
         <NavBar />
@@ -36,8 +43,8 @@ function App() {
       <div>
         <NavBar />
       </div>
-      <br />
     </div>
+    </StyledDetail>
   );
 }
 
