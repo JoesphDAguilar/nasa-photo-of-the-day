@@ -6,7 +6,7 @@ import '../App.css'
 const StyledNav = styled.div`
   display: flex;
   justify-content: center;
-  padding: 2%;
+  padding: 3%;
   background-color: #0B3D91;
   font-size: 1.3rem
 `;

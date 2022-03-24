@@ -52,4 +52,12 @@
 * {
   color: white;
   font-family: 'Trispace', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.nasaImg {
+  width: 70%;
+  height: 70vh;
+  padding: 4%;
 }

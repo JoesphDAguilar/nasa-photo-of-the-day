@@ -1,7 +1,26 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyleDetailed = styled.div`
+ display: flex;
+ justify-content: center;
+ width: 80%;
+ padding: 2% 10%;
+ border: 1px solid red;
+ h2 {
+  font-size: 2rem;
+  padding: 1%;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  padding: 2%;
+}
+`
 
 const About = () => {
   return (
+    <StyleDetailed>
     <div>
       <h2>About Us</h2>
       <p>
@@ -17,6 +36,7 @@ const About = () => {
         billions.
       </p>
     </div>
+    </StyleDetailed>
   )
 };
 
