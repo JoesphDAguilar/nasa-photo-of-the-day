@@ -6,9 +6,9 @@ import '../App.css'
 const StyledNav = styled.div`
   display: flex;
   justify-content: center;
-  padding: 3%;
+  padding: 2%;
   background-color: #0B3D91;
-  font-size: 1.3rem
+  font-size: 1.2rem
 `;
 
 const StyledLink = styled.a`
